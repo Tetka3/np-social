@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/np-social/static/css/main.f855e6bc.css",
+    "main.js": "/np-social/static/js/main.bd9ca15d.js",
+    "static/js/453.ed3810f9.chunk.js": "/np-social/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/np-social/index.html",
+    "main.f855e6bc.css.map": "/np-social/static/css/main.f855e6bc.css.map",
+    "main.bd9ca15d.js.map": "/np-social/static/js/main.bd9ca15d.js.map",
+    "453.ed3810f9.chunk.js.map": "/np-social/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.bd9ca15d.js"
+  ]
+}
