@@ -32,15 +32,15 @@ const Login = () => {
           placeholder="Username"
           required
           // value={formData.username}
-          name="username"
-          onChange={handleChange}
+          // name="username"
+          // onChange={handleChange}
         />
         <input 
           type="text" 
           placeholder="Password"
           // value={formData.password}
-          name="password"
-          onChange={handleChange}
+          // name="password"
+          // onChange={handleChange}
           required
         />
         <input type="checkbox"/><text>Remember me for 7 days</text>

@@ -15,11 +15,11 @@ const Register = () => {
   })
   const navigate = useNavigate();
 
-  const handleChange = (e) => {
-    setFormData(prevData => {
-      return {...prevData, [e.target.name]: e.target.value}
-    })
-  }
+  // const handleChange = (e) => {
+  //   setFormData(prevData => {
+  //     return {...prevData, [e.target.name]: e.target.value}
+  //   })
+  // }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -35,46 +35,46 @@ const Register = () => {
           placeholder="Fullname..."
           name = "fullname"
           value = {registerData.fullname}
-          onChange={handleChange}
+          // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Gender..."
           name = "gender"
           value = {registerData.gender}
-          onChange={handleChange}
+          // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Username..."
           name = "username"
           value = {registerData.username}
-          onChange={handleChange}
+          // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Email..." 
           name = "email"
           value = {registerData.email}
-          onChange={handleChange}
+          // onChange={handleChange}
         />        
          <input
           type="text"
           placeholder="Password..." 
           name = "password"
           value = {registerData.password}
-          onChange={handleChange}
+          // onChange={handleChange}
         />
         <input
           type="text"
           placeholder="Repeat Password..." 
           name ="repeatPassword"
           value = {registerData.repeatPassword}
-          onChange={handleChange}
+          // onChange={handleChange}
         />
         <input
           type="checkbox" 
-          onChange={handleChange}
+          // onChange={handleChange}
         />
       </form>
       <button onClick={() => navigate("/dashboard")}>Sign Me Up!</button>
