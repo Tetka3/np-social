@@ -1,0 +1,81 @@
+/* @import "../responsive.scss"; */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about, .cards{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    gap: 5px;         
+}    
+.elementals{
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;   
+}
+.login{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height:40vh;
+    background-color: rgb(225,230,254);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 3px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;      
+}
+.loginForm button{
+    padding: 5px 5px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}  
+.link{
+    list-style: none;
+}   
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    margin: 20px auto;
+    padding: 20px;
+    gap:20px;
+    background-color: rgb(207, 188, 188);
+}
+.imaged{
+    display: flex;        
+    justify-content: center;     
+} 
+.imaged img{
+    height: 50px;
+    width: 50px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.registerForm button{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+}
