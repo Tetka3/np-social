@@ -1,18 +1,18 @@
 import "./home.css";
 import write from "../assets/write.png";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Register = () => {
 
-  const [registerData, setRegisterData] = useState({
-    fullname: "",
-    gender: "",
-    username: "",
-    password: "",
-    email: "",
-    repeatPassword: ""
-  })
+  // const [registerData, setRegisterData] = useState({
+  //   fullname: "",
+  //   gender: "",
+  //   username: "",
+  //   password: "",
+  //   email: "",
+  //   repeatPassword: ""
+  // })
   const navigate = useNavigate();
 
   // const handleChange = (e) => {
