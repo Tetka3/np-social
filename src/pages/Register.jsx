@@ -33,42 +33,42 @@ const Register = () => {
         <input
           type="text"
           placeholder="Fullname..."
-          name = "fullname"
+          // name = "fullname"
           // value = {registerData.fullname}
           // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Gender..."
-          name = "gender"
+          // name = "gender"
           // value = {registerData.gender}
           // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Username..."
-          name = "username"
+          // name = "username"
           // value = {registerData.username}
           // onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Email..." 
-          name = "email"
+          // name = "email"
           // value = {registerData.email}
           // onChange={handleChange}
         />        
          <input
           type="text"
           placeholder="Password..." 
-          name = "password"
+          // name = "password"
           // value = {registerData.password}
           // onChange={handleChange}
         />
         <input
           type="text"
           placeholder="Repeat Password..." 
-          name ="repeatPassword"
+          // name ="repeatPassword"
           // value = {registerData.repeatPassword}
           // onChange={handleChange}
         />
