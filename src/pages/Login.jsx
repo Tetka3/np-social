@@ -1,27 +1,27 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./home.css";
 import { Link, useNavigate } from 'react-router-dom';
 
 
 const Login = () => {
 
-  const [formData, setFormData] = useState({
-    username: "",
-    password: ""
-  });
+  // const [formData, setFormData] = useState({
+  //   username: "",
+  //   password: ""
+  // });
 
   const navigate = useNavigate();
 
-  const handleChange = (e) => {    
-    setFormData(prevData => {
-      return {...prevData, [e.target.name]: e.target.value}
-    })
-  }  
+  // const handleChange = (e) => {    
+  //   setFormData(prevData => {
+  //     return {...prevData, [e.target.name]: e.target.value}
+  //   })
+  // }  
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUsername("");
-    setPassword("");
+    // setUsername("");
+    // setPassword("");
   }
     
   return (
@@ -31,14 +31,14 @@ const Login = () => {
           type="text" 
           placeholder="Username"
           required
-          value={formData.username}
+          // value={formData.username}
           name="username"
           onChange={handleChange}
         />
         <input 
           type="text" 
           placeholder="Password"
-          value={formData.password}
+          // value={formData.password}
           name="password"
           onChange={handleChange}
           required
