@@ -77,7 +77,7 @@ const Register = () => {
           // onChange={handleChange}
         />
       </form>
-      <button onClick={() => navigate("/dashboard")}>Sign Me Up!</button>
+      <button onClick={() => navigate("/np-social/dashboard")}>Sign Me Up!</button>
       <p>Forgot Password</p>
     </div>
   )
