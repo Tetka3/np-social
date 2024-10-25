@@ -14,7 +14,7 @@ import Register from "./pages/Register";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route index element={<HomePage />} />
+      <Route path='/np-social' element={<HomePage />} />
       <Route path="/login" element={<Login />} />       
       <Route path="/register" element={<Register />} /> 
       <Route path="/dashboard" element={<MainLayout/>}>            
