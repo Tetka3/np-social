@@ -15,10 +15,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path='/np-social' element={<HomePage />} />
-      <Route path="/login" element={<Login />} />       
-      <Route path="/register" element={<Register />} /> 
-      <Route path="/dashboard" element={<MainLayout/>}>            
-        <Route path="/dashboard" element={<Dashboard />} />  
+      <Route path="/np-social/login" element={<Login />} />       
+      <Route path="/np-social/register" element={<Register />} /> 
+      <Route path="/np-social/dashboard" element={<MainLayout/>}>            
+        <Route path="/np-social/dashboard" element={<Dashboard />} />  
       </Route>         
     </>
   )
