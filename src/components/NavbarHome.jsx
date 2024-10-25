@@ -11,7 +11,7 @@ const NavbarHome = () => {
     <div className='navbar'>
         <div className="leftnav">
             <div className="leftDiv">
-                <img src={social} alt="logo" onClick={() => navigate("/")}/>
+                <img src={social} alt="logo" onClick={() => navigate("/np-social")}/>
             </div>
             <div className="rightDiv">
                 <p>FOLLOW ME I FOLLOW YOU</p>
@@ -20,8 +20,8 @@ const NavbarHome = () => {
         </div>
         <div className="centernav"></div>
         <div className="rightnav">
-            <button onClick={() => navigate("/login")}>Log In</button>                        
-            <button onClick={() => navigate("/register")}>Register</button>    
+            <button onClick={() => navigate("/np-social/login")}>Log In</button>                        
+            <button onClick={() => navigate("/np-social/register")}>Register</button>    
         </div>        
     </div>
   )
