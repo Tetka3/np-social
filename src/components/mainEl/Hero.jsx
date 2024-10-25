@@ -11,7 +11,7 @@ const Hero = () => {
       <video src={start} autoPlay loop muted />      
       <div className="text">
         <p>Get Followers and Likes</p>
-        <button onClick={() => navigate('/register')}>Register</button>
+        <button onClick={() => navigate('/np-social/register')}>Register</button>
       </div>      
     </div>
   )
