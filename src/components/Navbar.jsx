@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="leftnav">
             <div className="leftDiv">
-                <img src={social} alt="logo" onClick={() => navigate("/")}/>
+                <img src={social} alt="logo" onClick={() => navigate("/np-social")}/>
             </div>
             <div className="rightDiv">
                 <p>FOLLOW ME I FOLLOW YOU</p>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="rightnav">            
             <button>Coins: </button>
             <button>Member</button>
-            <button onClick={() => navigate("/")}>Logout</button>              
+            <button onClick={() => navigate("/np-social")}>Logout</button>              
         </div>        
     </div>
   )
