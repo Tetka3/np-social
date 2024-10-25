@@ -44,11 +44,11 @@ const Login = () => {
           required
         />
         <input type="checkbox"/><text>Remember me for 7 days</text>
-        <p><Link to="/register" className="link">Forgot Password</Link></p>             
-        <button onClick={() => navigate("/dashboard")}>Submit</button>        
+        <p><Link to="/np-social/register" className="link">Forgot Password</Link></p>             
+        <button onClick={() => navigate("/np-social/dashboard")}>Submit</button>        
       </form> 
       <div className="member">
-        <p>Not a member? <Link to="/register" className="link">Create an account</Link> </p>
+        <p>Not a member? <Link to="/np-social/register" className="link">Create an account</Link> </p>
       </div>   
     </div>
   )
