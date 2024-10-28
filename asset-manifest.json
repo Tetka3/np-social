@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/np-social/static/css/main.d8812f5a.css",
-    "main.js": "/np-social/static/js/main.877f9db5.js",
+    "main.css": "/np-social/static/css/main.af302ce5.css",
+    "main.js": "/np-social/static/js/main.63c1867c.js",
     "static/js/453.ed3810f9.chunk.js": "/np-social/static/js/453.ed3810f9.chunk.js",
     "static/media/start.mp4": "/np-social/static/media/start.884f575b351b1dfbdbde.mp4",
     "static/media/business.png": "/np-social/static/media/business.8fc6b7deb6b550840286.png",
@@ -15,12 +15,12 @@
     "static/media/diigo.jpg": "/np-social/static/media/diigo.082cd235f687ca16057f.jpg",
     "static/media/social.jpg": "/np-social/static/media/social.6317d34e95e5a17b0086.jpg",
     "index.html": "/np-social/index.html",
-    "main.d8812f5a.css.map": "/np-social/static/css/main.d8812f5a.css.map",
-    "main.877f9db5.js.map": "/np-social/static/js/main.877f9db5.js.map",
+    "main.af302ce5.css.map": "/np-social/static/css/main.af302ce5.css.map",
+    "main.63c1867c.js.map": "/np-social/static/js/main.63c1867c.js.map",
     "453.ed3810f9.chunk.js.map": "/np-social/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8812f5a.css",
-    "static/js/main.877f9db5.js"
+    "static/css/main.af302ce5.css",
+    "static/js/main.63c1867c.js"
   ]
 }
