@@ -77,3 +77,11 @@
     color:white;
     cursor: pointer;
 }
+@media screen and (max-width: 720px) {
+    body{
+        font-size: 10px;       
+    }
+    .home {
+        display: flex;
+    }
+}
