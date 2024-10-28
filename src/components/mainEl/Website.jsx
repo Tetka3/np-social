@@ -1,4 +1,5 @@
 import website from "../../assets/website.png";
+import './hero.css'
 
 const Website = () => {
   return (
@@ -8,7 +9,7 @@ const Website = () => {
       </div>
       <div className="texted">
         <h3>Your Website</h3>
-        <p>Promote your wbsite accross all major networks and explode your traffic & sales whilst improving SEO</p>
+        <p>Promote your website accross all major networks and explode your traffic & sales whilst improving SEO</p>
         <button>Sign Up Free</button>
       </div>
        

@@ -77,11 +77,17 @@
     color:white;
     cursor: pointer;
 }
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) {
     body{
-        font-size: 10px;       
+        font-size: 10px;        
     }
     .home {
+        display: flex;        
+    }
+    .cards {
         display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: red;        
     }
 }
