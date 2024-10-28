@@ -82,12 +82,13 @@
         font-size: 10px;        
     }
     .home {
-        display: flex;        
+        display: flex;
+        color: green;        
     }
     .cards {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        color: red;        
+        min-width: max-content;
+                      
     }
 }
