@@ -1,4 +1,5 @@
 import website from "../../assets/website.png";
+import { Link } from "react-router-dom";
 import './hero.css'
 
 const Website = () => {
@@ -10,7 +11,7 @@ const Website = () => {
       <div className="texted">
         <h3>Your Website</h3>
         <p>Promote your website accross all major networks and explode your traffic & sales whilst improving SEO</p>
-        <button>Sign Up Free</button>
+        <Link to="/np-social/register"><button>Sign Up Free</button></Link>
       </div>
        
     </div>

@@ -85,10 +85,10 @@
         display: flex;
         color: green;        
     }
-    .cards {
+    .cards, .about {
         display: flex;
         flex-direction: column;
-        min-width: max-content;
+        column-width: auto;       
                       
     }
 }
