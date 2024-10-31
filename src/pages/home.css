@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: black; 
 }
 .about, .cards{
     margin-top: 5px;
@@ -83,12 +84,16 @@
     }
     .home {
         display: flex;
-        color: green;        
+        flex-direction: column;
+        color: green; 
+        /* width: 100vh;        */
     }
     .cards, .about {
         display: flex;
-        flex-direction: column;
-        column-width: auto;       
+        /* flex-direction: column; */
+        column-width: auto; 
+        width: 100%; 
+        flex-wrap: wrap;     
                       
     }
 }

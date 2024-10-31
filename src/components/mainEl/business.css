@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;    
 }
 .social{
     min-height: auto;
@@ -67,16 +67,19 @@
     padding: 20px;
     border-radius: 5px;
     margin-top: 0px;
-    overflow: auto;    
+    overflow: auto; 
+    color: black;    
 }
 .booster{
     display: flex;
     flex-direction: column;
+    color: black;    
 }        
 .info{
     display: flex;
     flex-direction: column;
-    gap: 5px;        
+    gap: 5px;  
+    color: black;       
 }
 .socials{
     display: flex;
