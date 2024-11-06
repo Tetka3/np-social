@@ -55,7 +55,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 10px 0px 10px 0px;
-    background-color: black;
+    background-color: rgb(9,153,36);
+    color: white;
 
 }
 /* .earnCoins button{
