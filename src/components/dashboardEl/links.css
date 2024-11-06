@@ -57,7 +57,9 @@
     margin: 10px 0px 10px 0px;
     background-color: rgb(9,153,36);
     color: white;
-
+    padding-left: 20px;
+    cursor: pointer;
+    padding: 5px;
 }
 /* .earnCoins button{
     width: 100%;
