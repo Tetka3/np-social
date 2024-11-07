@@ -11,19 +11,19 @@ import ReedemCoupon from "../coins/RedeemCoupon";
 const Coins = () => {
   return (
     <div className="coined">
-        <div className="top">
+        <div className="topCoin">
             <Monthly />
             <BuyCoins />
         </div>
-        <div className="center">
+        <div className="centerCoin">
             <BuyPremium/>
             <BuyActive />
         </div>
-        <div className="bottom">
+        <div className="bottomCoin">
             <BuyFeature />
             <BuyBulk />
         </div> 
-        <div className="reedemed">
+        <div className="reedemedCoin">
             <ReedemCoupon/>
         </div>     
     </div>
