@@ -12,7 +12,7 @@ import Account from "../cards/Account";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("home")
+  const [page, setPage] = useState("coins")
 
   return (
     <div className='mainElements'> 

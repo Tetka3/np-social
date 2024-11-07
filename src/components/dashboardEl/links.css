@@ -113,7 +113,24 @@
 .arrow {
     height: 32px;
 }
+.coined{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}   
 
+.top{        
+    display: flex;        
+    gap: 10px;
+}
+.center{        
+    display: flex;
+    gap: 10px;
+}
+.bottom{        
+    display: flex;
+    gap: 10px;
+}
 
     
     
