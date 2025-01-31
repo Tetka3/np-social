@@ -136,11 +136,11 @@
 .menu {
     color: black;
 }
-.menu {
+.menu ul{
     color: black;
 }
-.menu {
-    color: black;
+.menu ul li:hover{
+    cursor: pointer;
 }
 
     
