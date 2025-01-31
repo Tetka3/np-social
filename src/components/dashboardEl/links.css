@@ -137,6 +137,9 @@
     color: black;
     border: none;
 }
+.menu ul li{
+    border: 1px solid gray;
+}
 .menu ul li:hover{
     cursor: pointer;
 }
