@@ -121,7 +121,6 @@
     flex-direction: column;
     gap: 10px;
 }   
-
 .topCoin{        
     display: flex;        
     gap: 10px;
@@ -133,6 +132,9 @@
 .bottomCoin{        
     display: flex;
     gap: 10px;
+}
+.menu {
+    color: black;
 }
 
     
