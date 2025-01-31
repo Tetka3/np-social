@@ -60,6 +60,9 @@
     cursor: pointer;
     padding: 5px;
 }
+.earnCoins img{
+    height: 30px;    
+}
 .yourAccount{
     display: flex;
     flex-direction: column;
