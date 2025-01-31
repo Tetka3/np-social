@@ -136,9 +136,6 @@
 .menu {
     color: black;
 }
-.menu ul{
-    color: black;
-}
 .menu ul li:hover{
     cursor: pointer;
 }
