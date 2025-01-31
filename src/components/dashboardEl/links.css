@@ -135,6 +135,7 @@
 }
 .menu {
     color: black;
+    border: none;
 }
 .menu ul li:hover{
     cursor: pointer;
