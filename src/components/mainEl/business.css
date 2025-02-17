@@ -75,7 +75,7 @@
     flex-direction: column;
     color: red;    
 } 
-.bookmark{
+.bookmark, .follow{
     display: flex;
     flex-direction: column;
     align-items: center;
