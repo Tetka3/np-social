@@ -37,4 +37,4 @@ const Booster = () => {
   )
 }
 
-export default Booster
+export default Booster;
