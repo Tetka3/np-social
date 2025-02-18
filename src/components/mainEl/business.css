@@ -95,6 +95,9 @@
     gap: 5px;
     color: black;     
 }
+.info p, .info h3{    
+    color: black;     
+}
 .socials{
     display: flex;
     justify-content: center;
