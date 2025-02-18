@@ -60,7 +60,7 @@
     border: 1px solid rgb(238, 226, 226); 
     overflow: auto;  
 }
-.follow, .booster, .bookmark{
+.follow, .boost, .bookmark{
     border: 1px solid rgb(238, 226, 226);     
     min-height: max-content;
     width: 30%;
@@ -70,7 +70,7 @@
     overflow: auto; 
     /* color: black;     */
 }
-.booster{
+.boost{
     display: flex;
     flex-direction: column;
     color: red;    
