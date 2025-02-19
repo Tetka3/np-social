@@ -1,6 +1,7 @@
 import "./business.css";
 import social from "../../assets/network.png";
 import { Link } from "react-router-dom";
+import SignUp from "./SignUp";
 
 const Social = () => {
   return (
@@ -11,7 +12,9 @@ const Social = () => {
       <div className="texted">
         <h3>Your Social Networks</h3>
         <p>Get likes, shares, views, followers, subscribers and hits accross all networks</p>
-        <Link to="/np-social/register"></Link>
+        <Link to="/np-social/register">
+          <SignUp />        
+        </Link>
       </div>
 
     </div>
