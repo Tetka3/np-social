@@ -1,4 +1,4 @@
-
+import "./business.css";
 
 const SignUp = () => {
   return (
