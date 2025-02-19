@@ -1,6 +1,7 @@
 import website from "../../assets/website.png";
 import { Link } from "react-router-dom";
 import './hero.css'
+import SignUp from "./SignUp";
 
 const Website = () => {
   return (
@@ -11,7 +12,9 @@ const Website = () => {
       <div className="texted">
         <h3>Your Website</h3>
         <p>Promote your website accross all major networks and explode your traffic & sales whilst improving SEO</p>
-        <Link to="/np-social/register"><button>Sign Up Free</button></Link>
+        <Link to="/np-social/register">
+          <SignUp />        
+        </Link>
       </div>
        
     </div>
