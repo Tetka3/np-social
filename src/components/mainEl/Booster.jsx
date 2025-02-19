@@ -31,8 +31,8 @@ const Booster = () => {
         <img src={reddit}/>      
         <img src={diigo}/>      
         <img src={tumblr}/>
-        <img src={telegram}/> 
-        <img src={instagram}/>      
+        <img src={instagram}/> 
+        <img src={telegram}/>              
       </div>
     </div>
   )
