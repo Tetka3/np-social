@@ -2,7 +2,7 @@
 
 const SignUp = () => {
   return (
-    <div>
+    <div className="btn">
       <button>Sign Up Free</button>
     </div>
   )
