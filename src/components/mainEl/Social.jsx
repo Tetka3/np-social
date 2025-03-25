@@ -13,7 +13,7 @@ const Social = () => {
         <h3>Your Social Networks</h3>
         <p>Get likes, shares, views, followers, subscribers and hits accross all networks</p>
         <Link to="/np-social/register">
-          <SignUp />        
+          <SignUpButton />        
         </Link>
       </div>
 

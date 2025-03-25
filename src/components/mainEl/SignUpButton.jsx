@@ -1,6 +1,6 @@
 import "./business.css";
 
-const SignUp = () => {
+const SignUpButton = () => {
   return (
     <div className="btn">
       <button>Sign Up Free</button>
@@ -8,4 +8,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp;
+export default SignUpButton;
