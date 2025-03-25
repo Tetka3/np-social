@@ -1,7 +1,7 @@
 import website from "../../assets/website.png";
 import { Link } from "react-router-dom";
 import './hero.css'
-// import SignUp from "./SignUp";
+import SignUpButton from "./SignUpButton";
 
 const Website = () => {
   return (
@@ -13,7 +13,7 @@ const Website = () => {
         <h3>Your Website</h3>
         <p>Promote your website accross all major networks and explode your traffic & sales whilst improving SEO</p>
         <Link to="/np-social/register">
-          {/* <SignUp />         */}
+          <SignUpButton />        
         </Link>
       </div>
        
