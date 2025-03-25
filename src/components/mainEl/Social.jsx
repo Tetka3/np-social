@@ -1,7 +1,7 @@
 import "./business.css";
 import social from "../../assets/network.png";
 import { Link } from "react-router-dom";
-import SignUp from "./SignUp";
+import SignUpButton from "./SignUp";
 
 const Social = () => {
   return (

@@ -1,6 +1,6 @@
 import business from "../../assets/business.png";
 import { Link } from "react-router-dom";
-import SignUp from "./SignUp";
+// import SignUp from "./SignUp";
 
 const Business = () => {
   return (
@@ -12,7 +12,7 @@ const Business = () => {
         <h3>Your Business</h3>
         <p>Grow your business by promoting it to the right people on different major social networks</p>
         <Link to="/np-social/register">
-          <SignUp />        
+          {/* <SignUp />         */}
         </Link>
       </div>
     </div>
