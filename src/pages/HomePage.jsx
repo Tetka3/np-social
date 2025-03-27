@@ -11,6 +11,7 @@ import System from "../components/mainEl/System";
 import Comments from "../components/mainEl/Comments";
 import NavbarHome from '../components/NavbarHome';
 import Footer from '../components/Footer';
+import Advertise from '../components/mainEl/Advertise';
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
           <Bookmark />          
         </div>
           <System />
+          <Advertise />
           <Comments/> 
           <Footer/>       
     </div>
