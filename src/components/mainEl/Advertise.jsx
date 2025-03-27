@@ -2,8 +2,9 @@ import React from 'react'
 
 const Advertise = () => {
   return (
-    <div>
-      Ads
+    <div className='adverts'>
+      <p></p>
+      <p></p>
     </div>
   )
 }
