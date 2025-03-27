@@ -11,7 +11,7 @@ const Video = () => {
       </div>
       <div className="texted">
         <h3>Videos & Tracks</h3>
-        <p>Get your videos and tracks to the right people to improve your exposure to different groups of people</p>
+        <p>Get your videos & tracks to the right people to improve your exposure to different groups of people</p>
         <Link to="/np-social/register">
           <SignUpButton />        
         </Link>
