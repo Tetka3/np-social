@@ -1,4 +1,4 @@
-import './business.css'
+import "./hero.css";
 
 const Advertise = () => {
   return (
