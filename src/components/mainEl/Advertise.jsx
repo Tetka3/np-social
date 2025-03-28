@@ -1,4 +1,4 @@
-import React from 'react'
+import './business.css'
 
 const Advertise = () => {
   return (
@@ -9,4 +9,4 @@ const Advertise = () => {
   )
 }
 
-export default Advertise
+export default Advertise;
