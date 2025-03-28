@@ -46,6 +46,7 @@
 }
 .adverts {
     color: red;
+    background-color: green;
 }
 @media only screen and (max-width: 720px) {
     /* .website {
