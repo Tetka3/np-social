@@ -35,6 +35,8 @@
 .centernav{
     flex: 2;
     text-align: center;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .rightnav{
     display: flex;
