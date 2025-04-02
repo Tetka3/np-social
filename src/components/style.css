@@ -64,7 +64,7 @@
 .footer{
     height: 30vh;
     width: auto;
-    background-color: rgb(80,86,93);
+    background-color: rgb(142, 167, 196);
     color: white;
     display: flex;
     flex-direction: column;
