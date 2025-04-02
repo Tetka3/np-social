@@ -1,10 +1,12 @@
 import "./style.css";
+import Advertise from '../components/mainEl/Advertise';
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top-footer">
         <p><b>FOLLOW ME I FOLLOW YOU</b> is neither affiliated with nor endorsed by Reddit, YouTube, Instagram, Diigo, Delicious,  Tumblr, Linkedin, VK, Twitter, Facebook, Pinterest, or any other social network or Bookmarking site</p>
+        <Advertise />
       </div>
       <div className="bottom-footer">
         <ul>
