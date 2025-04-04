@@ -61,10 +61,10 @@
     border-radius: 3px;
     gap: 5px;
 } 
-.footer{
+.footerElements{
     height: 30vh;
     width: auto;
-    background-color: rgb(142, 167, 196);
+    background-color: rgb(80,86,93);
     color: white;
     display: flex;
     flex-direction: column;

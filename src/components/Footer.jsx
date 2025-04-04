@@ -2,7 +2,7 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footerElements">
       <div className="top-footer">
         <p><b>FOLLOW ME I FOLLOW YOU</b> is neither affiliated with nor endorsed by Reddit, YouTube, Instagram, Diigo, Delicious,  Tumblr, Linkedin, VK, Twitter, Facebook, Pinterest, or any other social network or Bookmarking site</p>
       </div>
