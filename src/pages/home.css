@@ -17,7 +17,7 @@
     margin-left: 30px;
     margin-right: 30px;   
 }
-.login{ 
+.loginElements{ 
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -25,8 +25,9 @@
     justify-content: center;
     width: 70%;
     height:70vh;
-    background-color: rgb(140,190,140);
+    /* background-color: rgb(140,190,140); */
     /* background-color: rgb(225,230,254); */
+    
     margin: 50px auto;
     padding: 20px;
     border-radius: 3px;
@@ -36,7 +37,7 @@
     flex-direction: column;
     gap: 5px;
     width: 50%;   
-    background-color: rgb(140,190,140);   
+   
 }
 .loginForm button{
     padding: 5px 5px;

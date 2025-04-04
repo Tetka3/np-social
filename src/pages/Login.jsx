@@ -25,7 +25,7 @@ const Login = () => {
   }
     
   return (
-    <div className="login">      
+    <div className="loginElements">      
       <form className="loginForm" onSubmit={handleSubmit}>
         <input 
           type="text" 
