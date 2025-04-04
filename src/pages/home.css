@@ -25,9 +25,7 @@
     justify-content: center;
     width: 70%;
     height:70vh;
-    /* background-color: rgb(140,190,140); */
-    /* background-color: rgb(225,230,254); */
-    
+    background-color: rgb(140,190,140);    
     margin: 50px auto;
     padding: 20px;
     border-radius: 3px;
