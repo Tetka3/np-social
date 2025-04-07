@@ -1,7 +1,6 @@
 // import { useState } from "react";
 import "./home.css";
 import { Link, useNavigate } from 'react-router-dom';
-import login from "../../assets/login.jpeg";
 
 const Login = () => {
 
