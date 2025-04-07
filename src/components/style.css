@@ -43,13 +43,18 @@
     flex: 2;
     justify-content: flex-end;
     margin-right: 20px;
-    position: relative;    
+    position: relative;  
 }
 .rightnav button{
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 3px;
+} 
+.rightnav button img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
 } 
 .login{
     position: absolute;
