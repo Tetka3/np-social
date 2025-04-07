@@ -21,6 +21,7 @@ const NavbarHome = () => {
         </div>
         <div className="centernav"><i>Follow Me I Follow You</i></div>
         <div className="rightnav">
+            <img src={login}/>
             <button onClick={() => navigate("/np-social/login")}>Log In</button>                        
             <button onClick={() => navigate("/np-social/register")}>Register</button>    
         </div>        
