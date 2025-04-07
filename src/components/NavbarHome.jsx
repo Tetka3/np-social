@@ -1,5 +1,5 @@
 import social from "../assets/social.jpg";
-import login from "../../assets/login.jpeg"; 
+import login from "../assets/login.jpeg"; 
 import "./style.css";
 import { useNavigate } from 'react-router-dom';
 
