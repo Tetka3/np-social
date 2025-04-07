@@ -20,9 +20,8 @@ const NavbarHome = () => {
             </div>   
         </div>
         <div className="centernav"><i>Follow Me I Follow You</i></div>
-        <div className="rightnav">
-            <img src={login}/>
-            <button onClick={() => navigate("/np-social/login")}>Log In</button>                        
+        <div className="rightnav">            
+            <button onClick={() => navigate("/np-social/login")}><img src={login}/>Log In</button>                        
             <button onClick={() => navigate("/np-social/register")}>Register</button>    
         </div>        
     </div>
