@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import "./home.css";
 import { Link, useNavigate } from 'react-router-dom';
-import twitter from "../../assets/twitter.jpg";
+import login from "../../assets/login.jpeg";
 
 const Login = () => {
 
