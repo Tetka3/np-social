@@ -53,6 +53,7 @@
 } 
 .rightnav button img{
     display: flex;
+    flex-direction: row;
     color: red;
     height: 30px;
     width: 30px;
