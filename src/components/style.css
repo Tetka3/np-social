@@ -46,15 +46,13 @@
     position: relative;  
 }
 .rightnav button{
+    display: flex;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 3px;
 } 
 .rightnav button img{
-    display: flex;
-    flex-direction: row;
-    color: red;
     height: 30px;
     width: 30px;
     margin-right: 10px;
