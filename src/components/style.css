@@ -52,6 +52,8 @@
     margin-left: 3px;
 } 
 .rightnav button img{
+    display: flex;
+    color: red;
     height: 30px;
     width: 30px;
     margin-right: 10px;
