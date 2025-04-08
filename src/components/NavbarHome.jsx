@@ -1,6 +1,6 @@
 import social from "../assets/social.jpg";
 import login from "../assets/login.jpeg"; 
-import login from "../assets/register.png"; 
+import register from "../assets/register.png"; 
 import "./style.css";
 import { useNavigate } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const NavbarHome = () => {
         <div className="centernav"><i>Follow Me I Follow You</i></div>
         <div className="rightnav">            
             <button onClick={() => navigate("/np-social/login")}><img src={login}/>Log In</button>                        
-            <button onClick={() => navigate("/np-social/register")}><img src={login}/>Register</button>    
+            <button onClick={() => navigate("/np-social/register")}><img src={register}/>Register</button>    
         </div>        
     </div>
   )
